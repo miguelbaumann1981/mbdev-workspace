@@ -1,10 +1,12 @@
 {
   "name": "mbdev-side-menu",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelbaumann1981/mbdev-side-menu"
+    "url": "https://github.com/miguelbaumann1981/mbdev-workspace"
   },
+  "homepage": "https://github.com/miguelbaumann1981",
+  "license": "MIT",
   "author": "Miguel Baumann Dev",
   "peerDependencies": {
     "@angular/common": "^18.2.0",

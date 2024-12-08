@@ -18,7 +18,9 @@ export enum TitleColor {
 export class MbdevSideMenuComponent {
 
   isAuthenticated = input(false);
-  titleColor = input<TitleColor>(TitleColor.purple)
+  titleColor = input<TitleColor>(TitleColor.purple);
+  title = input<string>('MBDev');
+  subtitle = input<string>('Corp');
 
   onSignOut = output();
   onSignIn = output();
